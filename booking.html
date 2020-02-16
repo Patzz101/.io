@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking-from</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Booking Form</h1>
+        <form action="#" id="booking">
+            <div class="form">
+                <div>
+                    <label for="flying-from">Flying from</label> <br>
+                    <select name="city" id="flying-from">
+                        <option value="ิ#">don muang, Thailand</option>
+                        <option value="#">China, Taipel</option>
+                        <option value="#">Seoul, South Korea</option>
+                        <option value="#">Tokyo, Japan</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="flying-to">To</label> <br>
+                    <select name="city" id="flying-to">
+                        <option value="ิ#">Suwannabhumi, Thailand </option>
+                        <option value="#">America,North America </option>
+                        <option value="#">Seoul, South Korea</option>
+                        <option value="#">Tokyo, Japan</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form">
+                <div>
+                    <label for="departing">Departing</label> <br>
+                    <input type="date" name="date" id="departing" placeholder="mm/dd/yy">
+                    </input>
+                </div>
+                <div>
+                    <label for="returing">Returning</label> <br>
+                    <input type="date" name="date" id="returning" placeholder="mm/dd/yy">
+                    </input>
+                </div>
+            </div>
+            <div class="form">
+                <div>
+                    <label for="adult">Adult</label> <br>
+                    <input type="number" name="number" id="Adult" min="0" placeholder="1">
+                    </input>
+                </div>
+                <div>
+                    <label for="child">Child</label> <br>
+                    <input type="number" name="number" id="child" min="0" placeholder="0">
+                    </input>
+                </div>
+                <div>
+                    <label for="infant">Infant</label> <br>
+                    <input type="number" name="number" id="infant" min="0" placeholder="0">
+                    </input>
+                </div>
+                <div>
+                    <label for="currency"> <span style="color: red;">Currency</span></label> <br>
+                    <select name="currency" id="currency">
+                        <option value="#">THB</option>
+                        <option value="#">TWD</option>
+                        <option value="#">KRW</option>
+                        <option value="#">JPY</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <div class="search-button1"> <br>
+            <button type="submit" form="booking-form">SEARCH</button>
+        </div>
+    </div>
+</body>
+</body>
+</html>

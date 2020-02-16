@@ -1,0 +1,28 @@
+p {
+  text-align: center;
+  font-size: medium;
+  font-style: oblique;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: tomato;
+}
+
+h1 {
+  color: chartreuse;
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+a {
+  font-size: large;
+}
